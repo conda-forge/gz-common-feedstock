@@ -20,7 +20,8 @@ source:
       - apple_disable_profiler_error_test.patch
 
 build:
-  number: 1
+  number: 2
+  skip: true  # [ppc64le]
 
 outputs:
   - name: {{ cxx_name }}
