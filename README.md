@@ -55,20 +55,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_ffmpeg6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-common-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_ffmpeg6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_ffmpeg7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-common-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_ffmpeg7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_ffmpeg6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=main">
