@@ -21,7 +21,7 @@ libgz_math:
 libgz_utils:
 - '4'
 spdlog:
-- '1.15'
+- '1.16'
 target_platform:
 - win-64
 tinyxml2:
