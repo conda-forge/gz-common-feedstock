@@ -33,7 +33,7 @@ libgz_utils:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 spdlog:
-- '1.15'
+- '1.16'
 target_platform:
 - osx-64
 tinyxml2:
