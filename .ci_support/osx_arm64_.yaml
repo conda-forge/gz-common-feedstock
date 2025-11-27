@@ -23,7 +23,7 @@ cxx_compiler_version:
 ffmpeg:
 - '8'
 libgdal:
-- '3.11'
+- '3.12'
 macos_machine:
 - arm64-apple-darwin20.0.0
 spdlog:
