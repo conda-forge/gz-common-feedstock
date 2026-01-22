@@ -23,7 +23,7 @@ source:
       - macro_path_binary_relocation.patch
 
 build:
-  number: 3
+  number: 4
 
 outputs:
   - package:
