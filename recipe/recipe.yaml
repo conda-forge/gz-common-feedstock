@@ -3,7 +3,7 @@ schema_version: 1
 context:
   repo_name: gz-common
   component_name: common
-  version: 7.0.0
+  version: "7.0.1"
   major_version: "7"
   name: ${{ repo_name }}
   component_version: ${{ component_name ~ major_version }}
@@ -15,7 +15,7 @@ recipe:
 
 source:
   - url: https://github.com/gazebosim/${{ repo_name }}/archive/${{ repo_name }}${{ major_version }}_${{ version }}.tar.gz
-    sha256: 7232b8b141b06cbd90112e8adc0b19ec5348b30c7c2c1d13629c207c2ba0eafd
+    sha256: 464ddf6f4a7bbf78f234a4dc1e98c27690a5419daab18e218b948015457be864
     patches:
       - if: linux
         then:
@@ -23,7 +23,7 @@ source:
       - macro_path_binary_relocation.patch
 
 build:
-  number: 4
+  number: 0
 
 outputs:
   - package:
