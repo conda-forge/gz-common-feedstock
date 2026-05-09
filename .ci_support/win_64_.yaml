@@ -1,5 +1,5 @@
 assimp:
-- 6.0.3
+- '6'
 c_compiler:
 - vs2022
 c_stdlib:
@@ -15,7 +15,7 @@ ffmpeg:
 glib:
 - '2'
 libgdal:
-- '3.12'
+- '3.13'
 target_platform:
 - win-64
 tinyxml2:
