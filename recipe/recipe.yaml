@@ -25,7 +25,7 @@ source:
       - 660.patch
 
 build:
-  number: 7
+  number: 8
 
 outputs:
   - package:
