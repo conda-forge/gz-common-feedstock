@@ -65,6 +65,8 @@ outputs:
         - libgdal-core
         - libgdal-netcdf
         - assimp
+      run:
+        - libgdal-netcdf
       run_exports:
         - ${{ pin_subpackage(cxx_name, upper_bound='x') }}
     tests:
