@@ -25,7 +25,7 @@ source:
       - 660.patch
 
 build:
-  number: 9
+  number: 10
 
 outputs:
   - package:
@@ -59,7 +59,9 @@ outputs:
         - tinyxml2
         - glib
         - ffmpeg
-        - libgdal
+        # Only the core GDAL library is needed; the libgdal metapackage pulls
+        # every optional plugin, including TileDB and its unrelated cloud ABI.
+        - libgdal-core
         - assimp
       run_exports:
         - ${{ pin_subpackage(cxx_name, upper_bound='x') }}
