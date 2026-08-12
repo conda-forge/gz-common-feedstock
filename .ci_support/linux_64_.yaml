@@ -22,7 +22,7 @@ ffmpeg:
 - '9'
 glib:
 - '2'
-libgdal:
+libgdal_core:
 - '3.13'
 libuuid:
 - '2'

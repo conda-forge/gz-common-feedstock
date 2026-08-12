@@ -1,7 +1,7 @@
 About gz-common-feedstock
 =========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gz-common-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gz-common-feedstock/blob/v5/LICENSE.txt)
 
 Home: https://github.com/gazebosim/gz-common
 
@@ -23,7 +23,7 @@ Current build status
     <td>GitHub Actions</td>
     <td>
       <a href="https://github.com/conda-forge/gz-common-feedstock/actions/workflows/conda-build.yml">
-        <img src="https://github.com/conda-forge/gz-common-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+        <img src="https://github.com/conda-forge/gz-common-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=v5">
       </a>
     </td>
   </tr>
@@ -33,8 +33,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=main">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-common-feedstock?branchName=main">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=v5">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-common-feedstock?branchName=v5">
           </a>
         </summary>
         <table>
@@ -42,8 +42,8 @@ Current build status
           <tbody><tr>
               <td>osx_64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-common-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17565&branchName=v5">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-common-feedstock?branchName=v5&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr>
