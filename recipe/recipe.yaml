@@ -23,9 +23,11 @@ source:
       - macro_path_binary_relocation.patch
       - apple_disable_profiler_error_test.patch
       - 660.patch
+      # missing <cstdint> includes, which newer compilers no longer pull in (gazebosim/gz-common#672)
+      - 672.patch
 
 build:
-  number: 10
+  number: 11
 
 outputs:
   - package:
